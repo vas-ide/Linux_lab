@@ -110,6 +110,16 @@ Oliver Wendell Holmes has described him in this wise: "His personal appearance w
 
 Emerson died April 27, 1882, after a few days' illness from pneumonia. Dr. Garnett in his excellent biography says: "Seldom had 'the reaper whose name is Death' gathered such illustrious harvest as between December 1880 and April 1882. In the first month of this period George Eliot passed away, in the ensuing February Carlyle followed; in April Lord Beaconsfield died, deplored by his party, nor unregretted [10]by his country; in February of the following year Longfellow was carried to the tomb; in April Rossetti was laid to rest by the sea, and the pavement of Westminster Abbey was disturbed to receive the dust of Darwin. And now Emerson lay down in death beside the painter of man and the searcher of nature, the English-Oriental statesman, the poet of the plain man and the poet of the artist, and the prophet whose name is indissolubly linked with his own. All these men passed into eternity laden with the spoils of Time, but of none of them could it be said, as of Emerson, that the most shining intellectual glory and the most potent intellectual force of a continent had departed along with him."'''
 
+list_shakespeare = shakespeare.split()
+set_shakespeare = set(list_shakespeare)
+print(list_shakespeare)
+list_ralph_waldo_emerson = ralph_waldo_emerson.split()
+set_ralph_waldo_emerson = set(list_ralph_waldo_emerson)
+print(list_ralph_waldo_emerson)
+print('Общие', set_shakespeare & set_ralph_waldo_emerson)
+print('Ralph', set_shakespeare - set_ralph_waldo_emerson)
+print('Shakespeare', set_ralph_waldo_emerson - set_shakespeare)
+#5.________________________________________________________________
 
 
 
